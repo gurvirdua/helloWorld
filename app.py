@@ -9,7 +9,7 @@ def hello_world():  # put application's code here
 
 @app.route('/hello')
 def hello():  # put application's code here
-    return render_template('hello.html')
+    return render_template('hello')
 
 @app.route('/about')
 def about():  # put application's code here
