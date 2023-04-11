@@ -86,6 +86,7 @@ def student_view_all():
     return render_template('student_view_all.html', students=students)
 
 
+
 @app.route('/student/view/<int:student_id>')
 @login_required
 @role_required(['ADMIN', 'MANAGER', 'STUDENT'])
